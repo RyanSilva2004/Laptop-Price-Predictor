@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
 import pickle
-import numpy
+import numpy as np
 
 #Install Libraries Using The Terminal Flask,Pickle,Numpy,Pandas and SKLearn (for some usual way might not work : use pip install -U scikit-learn)
 
@@ -70,7 +70,7 @@ def index():
             return pred_price
 
         price_prediction = predict(lap_feature_list) #To Save The Predicted Price
-
+        price_prediction = np.round(price_prediction[0],2)
 
                 
        
