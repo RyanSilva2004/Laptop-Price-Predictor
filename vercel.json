@@ -1,14 +1,14 @@
 {
     "builds": [
         {
-            "src": "api/webio.py",
+            "src": "api/main.py",
             "use": "@vercel/python"
         }
     ],
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "api/webio.py"
+            "dest": "api/main.py"
         }
     ]
 }
