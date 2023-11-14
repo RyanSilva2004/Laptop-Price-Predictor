@@ -77,5 +77,5 @@ def index():
     return render_template("index.html",price_prediction = price_prediction) #Renders The Html and Returns The Predicted Price
     
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
 
