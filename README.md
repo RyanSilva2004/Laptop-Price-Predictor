@@ -11,9 +11,10 @@ The model takes into account various features of a laptop to predict its price. 
 - Brand
 - Type of Processor
 - RAM
-- Screen Tehnology
+- Screen Technology
 - Operating System
 - Graphics Card
+- Weight
 
 ## Installation & Setup
 Follow these steps to get the project up and running on your local machine:
